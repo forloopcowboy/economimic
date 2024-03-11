@@ -7,5 +7,6 @@ export interface SimulationState {
 }
 
 export function simulate(state: SimulationState): SimulationState {
+  // TODO: make agents go from one location to another in random fashion
   return state;
 }
